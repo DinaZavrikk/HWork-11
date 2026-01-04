@@ -1,0 +1,123 @@
+.footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 442px;
+    background-color: hsl(186, 35%, 29%);
+    color: white;
+
+        h6{
+            margin: 0;
+            font-family: $head-font;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+        }
+        p, a{
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            text-decoration: none;
+            color: white;
+        }
+    .footer-container{
+        padding: 100px 120px 40.19px;
+        display: flex;
+
+        .footer-container-name{
+            width: 308px;
+
+            .footer-container-name__name{
+                font-size: 24px;
+                margin: 0.27px 0 24px;
+            }
+            .footer-container-name__follow{
+                margin: 40px 0 20.46px;
+            }
+            .footer-container-name-links{
+                width: 125px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .footer-container-tour{
+            width: 117px;
+            margin: 1.77px 100.46px 0 157.02px;
+
+            h6{
+                height: 52px;
+                margin: 0;
+                
+            }
+            .footer-container-tour-links{
+                height: 139.87px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+        .footer-container-company{
+            width: 156px;
+            margin: 2.77px 108.52px 0 0;
+            
+            h6{
+                height: 24x;
+                margin-bottom: 24px;
+                white-space: nowrap;  
+            }
+            .footer-container-company-links{
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+        .footer-container-subscribe{
+            width: 253px;
+            margin-top: 2.77px;
+            p{
+                margin: 23.5px 0 40px;
+                width: 240px;
+                line-height: 23px;
+            }
+            form{
+                width: 253px;
+                height: 48px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                input{
+                    border: none;
+                    height: 95%; 
+                    width: 210px;  
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                }
+                button {
+                    border: none;
+                    margin-right: 9px;
+                }
+
+                #mail::placeholder{
+                color: #859395;
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                padding-left: 22px;
+                }
+            }
+        }
+    }    
+    hr{
+        color: #407980;
+    }
+    .footer-copyright{
+        line-height: 26px;
+        text-align: center;
+    }
+}

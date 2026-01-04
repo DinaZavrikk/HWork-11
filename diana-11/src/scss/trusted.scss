@@ -1,0 +1,41 @@
+.trusted-container{
+    margin: 140px auto;
+    width: 1082px;
+
+    h3{
+        margin: 0;
+        color: $main-color;
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    .trusted-container-logo{
+        height: 52px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .trusted-container-logo__mastercard{
+            height: 51.97;
+        }
+        .trusted-container-logo__airbnb{
+            height: 39px;
+        }
+        .trusted-container-logo__uber{
+            height: 34px;
+        }
+        .trusted-container-logo__paypal{
+            height: 37.39px;
+        }
+        .trusted-container-logo__visa{
+            height: 32px;
+        }
+        .trusted-container-logo__stripe{
+            height: 40.4px;
+        }
+    }
+}

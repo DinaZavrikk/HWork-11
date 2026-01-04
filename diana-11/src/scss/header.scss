@@ -1,0 +1,100 @@
+.container {
+    @include container;
+    margin-top: 44px;
+    
+    .header-top{
+        height: 29px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 27px;
+
+        .header-top__name span{
+            font-family: $head-font;
+            font-weight: 700;
+            font-size: 24px;
+            color: $main-color;
+        }
+
+        .header-top__links {
+            width: 472px;
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+                color: #161616;
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        .header-top__nav{
+            width: 78px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                height: 24px;
+            }
+        }
+    }
+    .header-main{
+        height: 560px;
+        background-color: $green-second;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            height: 560px;
+            width: 411px;
+        }
+        .header-main-container {
+            width: 671px;
+            margin: 101px 18px 0px 0px;
+
+            .header-main-container__item1{
+                box-sizing: content-box;
+                width: 671px;
+                margin-bottom: 20px;
+                // height: 136px;
+                h1{
+                    font-family: $head-font;
+                    font-weight: 700;
+                    font-size: 56px;
+                    color: white;
+                    line-height: 100%;
+                } 
+            }
+
+            .header-main-container__item2{
+                // margin: 20px 0px 0px 0px;
+                box-sizing: content-box;
+                width: 488px;
+                // height: 75px;
+                p{
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: white;  
+                    line-height: 100%;
+                }
+            }
+
+            .header-main-container__button{
+                margin-top: 35px;
+                button {
+                    margin-top: 35px;
+                    width: 172px;
+                    height: 56px;
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: $green-second;
+                }
+            }     
+        }    
+    }   
+}
+
+

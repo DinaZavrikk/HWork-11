@@ -1,0 +1,96 @@
+.container-about{
+    width: 1168px;
+    margin: 140px auto;
+    // box-sizing: content-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .container-about-image{
+        img {
+        height: 577px;
+        width: 596px;
+        // box-shadow: 35.24px 26px 10px #DEE4E2;
+        }   
+        .container-about-image__background-rentangle{
+        position: absolute;
+        z-index: -1;
+        top: 26px;
+        left: 0px;
+        right: 0;
+        width: 631px;
+        height: 586px;
+        background-color: #DEE4E2;
+        }
+    }
+    
+    .container-about-text{
+        width: 437px;
+        align-content: center;
+
+
+        h3 {
+            margin: 0;
+            color: $main-color;
+            font-family: $main-font;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        p{
+            margin: 0;
+            margin-top: 20px;
+            color: #444444;
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .container-about-text-benefits{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            
+            .container-about-text-benefit-quality, .container-about-text-benefit-secure, 
+            .container-about-text-benefit-shopping {
+                display: flex;
+            }
+
+            .container-about-text-benefit-secure, .container-about-text-benefit-shopping{
+                margin-top: 30px;
+            }
+
+            .container-about-text-benefit-quality__text, .container-about-text-benefit-secure__text,
+            .container-about-text-benefit-shopping__text{
+                margin-left: 28px;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
+
+            h6{
+                margin: 0;
+                color: $main-color;
+                font-family: $head-font;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+            }
+
+            p{
+                margin-top: 14px;
+                color: #383738;
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px; 
+            }
+        }
+    }
+
+
+}

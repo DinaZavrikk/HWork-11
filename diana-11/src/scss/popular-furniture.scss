@@ -1,0 +1,135 @@
+.container-popular-furniture{
+    @include container;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    .container-popular-furniture-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        .container-popular-furniture-top-text{
+            h3{
+                margin: 0;
+                color: $main-color;
+                font-family: $head-font;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 52px;
+            }
+            p{  
+                width: 820px;
+                margin: 0;
+                margin-top: 20px;
+                color: #383738;
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+            }       
+        }
+        .container-popular-furniture-top-nav{
+            width: 96px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            svg:first-child{
+                color: #D1CECE;
+            }
+            svg:last-child{
+                color: #666666;
+            }
+        }
+    }
+
+    .container-popular-furniture-goods{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        .container-popular-furniture-goods-item{
+            width: 380px;
+            box-shadow: 0px 13px 26px 0px #00000012;
+;
+
+            img{
+                width: 380px;
+                height: 246px;
+                object-fit: cover;
+            }
+
+            .container-popular-furniture-goods-item-text{
+                width: 332px;
+                height: 79.25px;
+                display: flex;
+                justify-content: space-between;
+                margin: 30px auto 26.5px;
+
+                .container-popular-furniture-goods-item-text-left{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    p{
+                        margin: 0px;
+                        color: $main-color;
+                        font-family: $main-font;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 27px;
+                    }
+                }
+            
+                .container-popular-furniture-goods-item-text-right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    
+                    .container-popular-furniture-goods-item-text-right-functions{
+                        display: flex;
+                        justify-content: end;
+
+                        .container-popular-furniture-goods-item-text-right-functions__like,
+                        .container-popular-furniture-goods-item-text-right-functions__share {
+                            margin-left: 8px;
+                            height: 26px;
+                            width: 26px;
+                            border-radius: 50%;
+                            background-color: #ECF4FF;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        #clicked-like{
+                            background-color: #EF5423;
+                            svg{
+                                color: white;
+                            }
+                        }
+                    }
+                    
+                    .container-popular-furniture-goods-item-text-right__button-buy{
+                        button{
+                            height: 32px;
+                            width: 79px;
+                            background-color: $main-color;
+                            color: white;
+                            font-family: $main-font;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+
+                
+        }
+
+
+    }
+
+}

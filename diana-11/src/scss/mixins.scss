@@ -1,0 +1,11 @@
+@mixin container {
+    width: 1200px;
+    margin: 140px auto;
+}
+
+@mixin background-img{
+    background-repeat: no-repeat;
+    background-position: center-center;
+    background-size: cover;
+    background-attachment: scroll;
+}

@@ -1,0 +1,125 @@
+.container-all-furniture {
+    width: 1187px;
+    margin: 140px auto;
+    
+    .container-all-furniture-header{
+        h3{
+            margin: 0;
+            text-align: center;
+            font-family: $head-font;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            color: $main-color;
+        }
+    }
+
+    .container-all-furniture-shop-by{
+        width: 720px;
+        height: 35px;
+        margin: 20px auto 89.62px;
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            margin: 0;
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 27px;
+            color: #919090;
+        }
+
+        #shop-by-choose {
+            p{
+                color: $green-second;
+                font-weight: 500;
+            }
+        }
+        #shop-by-hr{
+            border: none;
+            border-bottom: 2px solid $green-second;
+            height: 2px;
+            width: 57px;
+            margin: 6px auto 0px;
+        }
+    }
+
+    .container-all-furniture-main{
+        display: flex;
+        justify-content: space-between;
+
+        .container-all-furniture-main-image{
+            position: relative;
+            img{
+                width: 553px;
+                height: 389px;
+                object-fit: cover;
+                margin-bottom: 11.12px;
+                margin-left: 12.58px;
+            }
+            
+            .container-all-furniture-main-image__first-back,
+            .container-all-furniture-main-image__second-back {
+                width: 190px;
+                height: 86px;
+                position: absolute;
+                z-index: -1;
+                background-color: $green-second;
+            }
+            .container-all-furniture-main-image__first-back{
+                top: -9.62px;
+                // left: -12.58px;
+            }
+            .container-all-furniture-main-image__second-back{
+                // bottom: 0px;
+                top: 314.57px;
+                right: -12.06px;
+            }
+        }
+
+        .container-all-furniture-main-nav{
+            margin-top: 31px;
+            width: 474px;
+            height: 337px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+
+            .container-all-furniture-main-nav-item{
+                width: 222px;
+                height: 90px;
+                border: 1.5px solid #D9DCE5;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+
+                .container-all-furniture-main-nav-item-name{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    
+                    svg {
+                        color: #666666;
+                    }
+                    p{
+                        margin: 0;
+                        font-family: $main-font;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: #808080;
+                    }
+                }
+            }
+            #container-all-furniture-main-nav-item_clicked{
+                    background-color: $green-second;
+                    svg, p{
+                        color: white;
+                    }
+                }
+        }
+    }
+}

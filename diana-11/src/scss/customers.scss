@@ -1,0 +1,94 @@
+.customers {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .customers-left{
+        position: relative;
+
+        .customers-left__img{
+            width: 459px;
+            height: 492.42px;
+            object-fit: cover;
+            margin-left: 105.2px;
+        }
+        .customers-left__backround-circle{
+            height: 492.42px;
+            width: 492.42px;
+            border-radius: 50%;
+            position: absolute;
+            z-index: -1;
+            background-color: $main-color;
+            top: 0px;
+        }
+    }
+
+    .customers-right{
+        width: 535.07px;
+
+        .customers-right-header{
+            h3{
+                margin: 0;
+                font-family: $head-font;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                color: $main-color;
+            }
+            p{
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #383738;
+            }
+        }
+
+        .customers-right-customer{
+            height: 50px;
+            width: 129px;
+            margin-top: 40.25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .customers-right-customer-img{
+                img{
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+            .customers-right-customer-information{
+                width: 69px;
+
+                .customers-right-customer-information__name{
+                    p{
+                        margin: 0;
+                        font-family: $main-font;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                    }
+                }
+                .customers-right-customer-information__rating{
+                    height: 16px;
+                    display: flex;
+                    align-content: center;
+                    margin-top: 6.16px;
+                    p{
+                        margin: 0 0 0 8px;
+                        font-family: $main-font;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 15px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
