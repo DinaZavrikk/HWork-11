@@ -113,8 +113,11 @@
             }
         }
     }    
-    hr{
-        color: #407980;
+    .footer-line{
+        margin: 0;
+        border: none; 
+        height: 1px; 
+        background-color: #407980;
     }
     .footer-copyright{
         line-height: 26px;
